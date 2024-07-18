@@ -60,7 +60,7 @@ const Landing = () => {
             </div>
             <div className="bg-blue-100 pt-12 pb-20 md:pt-48">
             <p className="text-center text-2xl md:text-4xl font-bold text-black">About Us</p>
-            <div className="mt-12 grid grid-cols-1 md:grid-cols-4 gap-8 max-w-full px-6 md:px-40">
+            <div className="mt-6 grid grid-cols-1 md:grid-cols-4 gap-8 max-w-full px-6 md:px-40">
                 <div className="max-w-full md:max-w-[400px] bg-gray-800 p-6 rounded-lg flex flex-col items-center space-y-5 mx-auto">
                     <LockIcon color="white" size={80} className="pt-2 md:pt-5" />
                     <div>
