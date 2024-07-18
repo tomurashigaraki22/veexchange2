@@ -3,6 +3,7 @@ import Landing from './pages/Landing'
 import Login from "./pages/Login";
 import { useEffect, useState } from "react";
 import { useAuth } from "../Context";
+import Signup from "./pages/Register";
 
 
 const AppNav = () => {
@@ -19,6 +20,7 @@ const AppNav = () => {
             <Routes>
                 <Route path="/" element={<Landing/>}/>
                 <Route path="/login" element={<Login/>}/>
+                <Route path="/signup" element={<Signup/>}/>
             </Routes>
         </Router>
     );
