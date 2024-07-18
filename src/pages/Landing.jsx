@@ -198,51 +198,51 @@ const Landing = () => {
         </div>
 
 
-            <div className="pt-[150px] bg-blue-100 pb-20">
-                <p className="text-center text-4xl font-bold text-black">Contact Us</p>
-                <div className="mt-[100px] max-w-screen-md mx-auto px-20">
-                    <form className="bg-white p-8 rounded-lg shadow-lg space-y-6">
-                        <div className="flex flex-col space-y-2">
-                            <label htmlFor="name" className="text-lg font-bold text-gray-700">Name</label>
-                            <input
-                                type="text"
-                                id="name"
-                                name="name"
-                                className="p-4 border-2 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-                                placeholder="Enter your name"
-                            />
-                        </div>
-                        <div className="flex flex-col space-y-2">
-                            <label htmlFor="email" className="text-lg font-bold text-gray-700">Email</label>
-                            <input
-                                type="email"
-                                id="email"
-                                name="email"
-                                className="p-4 border-2 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-                                placeholder="Enter your email"
-                            />
-                        </div>
-                        <div className="flex flex-col space-y-2">
-                            <label htmlFor="message" className="text-lg font-bold text-gray-700">Message</label>
-                            <textarea
-                                id="message"
-                                name="message"
-                                rows="5"
-                                className="p-4 border-2 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-                                placeholder="Enter your message"
-                            ></textarea>
-                        </div>
-                        <div className="flex justify-center">
-                            <button
-                                type="submit"
-                                className="bg-blue-500 text-white font-bold py-4 px-8 rounded-lg hover:bg-blue-600 transition duration-300"
-                            >
-                                Submit
-                            </button>
-                        </div>
-                    </form>
-                </div>
+        <div className="pt-12 md:pt-36 bg-blue-100 pb-20">
+            <p className="text-center text-2xl md:text-4xl font-bold text-black">Contact Us</p>
+            <div className="mt-12 md:mt-24 max-w-md md:max-w-screen-md mx-auto px-4 md:px-20">
+                <form className="bg-white p-6 md:p-8 rounded-lg shadow-lg space-y-6">
+                    <div className="flex flex-col space-y-2">
+                        <label htmlFor="name" className="text-lg font-bold text-gray-700">Name</label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            className="p-3 md:p-4 border-2 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                            placeholder="Enter your name"
+                        />
+                    </div>
+                    <div className="flex flex-col space-y-2">
+                        <label htmlFor="email" className="text-lg font-bold text-gray-700">Email</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            className="p-3 md:p-4 border-2 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                            placeholder="Enter your email"
+                        />
+                    </div>
+                    <div className="flex flex-col space-y-2">
+                        <label htmlFor="message" className="text-lg font-bold text-gray-700">Message</label>
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="4"
+                            className="p-3 md:p-4 border-2 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                            placeholder="Enter your message"
+                        ></textarea>
+                    </div>
+                    <div className="flex justify-center">
+                        <button
+                            type="submit"
+                            className="bg-blue-500 text-white font-bold py-3 md:py-4 px-6 md:px-8 rounded-lg hover:bg-blue-600 transition duration-300"
+                        >
+                            Submit
+                        </button>
+                    </div>
+                </form>
             </div>
+        </div>
 
 
 
