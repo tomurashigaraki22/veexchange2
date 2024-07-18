@@ -32,7 +32,7 @@ const Landing = () => {
                                 <p className="text-xl text-gray-700 mb-6 text-center md:text-left">Your number one exchange service for <br /> <span className="font-bold">CFA to NGN</span></p>
                                 <div className="text-gray-500">
                                     <p className="text-center md:text-left">At VeeXchange, we simplify your financial transactions, providing a seamless and reliable platform to manage your currency exchanges and utility payments across Nigeria and Benin Republic</p>
-                                    <p className="md:text-left hidden">Exchange currencies at affordable rates, trade gift cards, get virtual dollar cards, and connect with P2P merchants for the best deals.</p>
+                                    <p className="md:text-left hidden md:block">Exchange currencies at affordable rates, trade gift cards, get virtual dollar cards, and connect with P2P merchants for the best deals.</p>
                                 </div>
                                 <div className="md:flex md:flex-row md:items-center md:justify-between flex flex-row items-center justify-between w-full">
                                     <div className="bg-white md:bg-gray-400 transition duration-300 cursor-pointer mt-10 border-2 border-gray-600 md:w-[50%] text-center px-3 py-2 rounded-lg group hover:bg-black ">
