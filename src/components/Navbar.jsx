@@ -1,23 +1,23 @@
 import React, { useState } from "react";
-import logo from '../assets/money.png'
+import logo from '../assets/money.png';
 import { Menu, X } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
-    const [isOpen, setisOpen] = useState(false)
-    const navigate = useNavigate()
+    const [isOpen, setIsOpen] = useState(false);
+    const navigate = useNavigate();
 
-    return(
+    return (
         <div>
             <div className="flex flex-row items-center justify-between py-4 max-w-screen-2xl mx-auto">
                 <div className="flex items-center space-x-3 pl-2">
                     <img src={logo} alt="Logo" className="h-10 w-10" />
                     <p className="md:text-3xl text-2xl font-bold text-black">VeeXchange</p>
                 </div>
-                <div className="md:hidden pr-2" onClick={() => setisOpen(!isOpen)}>
-                    {isOpen ? <X color="black" size={30}/> : <Menu color='black' size={30}/>} 
+                <div className="lg:hidden pr-2" onClick={() => setIsOpen(!isOpen)}>
+                    {isOpen ? <X color="black" size={30} /> : <Menu color="black" size={30} />}
                 </div>
-                <div className="md:flex md:flex-row md:items-center md:space-x-8 md:pr-10 hidden">
+                <div className="hidden lg:flex lg:flex-row lg:items-center lg:space-x-8 lg:pr-10">
                     <div>
                         <p className="text-gray-400 hover:text-black transition duration-300 cursor-pointer">Home</p>
                     </div>
@@ -32,8 +32,8 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
-            {isOpen && 
-                <div className="border-b border-gray-600 shadow-lg">
+            {isOpen &&
+                <div className="border-b border-gray-600 shadow-lg lg:hidden">
                     <div className="pb-4">
                         <div className="mt-2">
                             <p className="text-gray-400 hover:text-black transition duration-300 cursor-pointer">Home</p>
@@ -51,8 +51,7 @@ const Navbar = () => {
                 </div>
             }
         </div>
-        
-    )
+    );
 }
 
 export default Navbar;

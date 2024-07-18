@@ -1,10 +1,9 @@
-import React, { useState } from "react";
-import logo from '../assets/money.png'
-
+import React from "react";
+import logo from '../assets/money.png';
 
 const FooterLarge = () => {
-    return(
-<div className="hidden md:block mt-20 mb-10">
+    return (
+        <div className="hidden md:block mt-20 mb-10">
             <div className="md:flex md:flex-row md:items-center md:justify-between px-2 mb-[50px]">
                 <div className="flex items-center space-x-3 pl-2">
                     <img src={logo} alt="Logo" className="h-10 w-10" />
@@ -19,7 +18,7 @@ const FooterLarge = () => {
                     <p className="text-black group-hover:text-white">Get Started</p>
                 </div>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8 items-start justify-between px-10 md:px-20 mb-20">
+            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8 items-start justify-between px-10 md:px-20 mb-20 w-full md:w-4/5 lg:w-4/5 mx-auto">
                 <div className="flex flex-col">
                     <p className="text-xl font-bold text-black mb-5">Products</p>
                     <div className="flex flex-col space-y-2">
@@ -68,7 +67,6 @@ const FooterLarge = () => {
                     </div>
                 </div>
             </div>
-
         </div>
     );
 }
