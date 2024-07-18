@@ -1,12 +1,12 @@
 import React from "react";
 import img from '../assets/bghud.jpg';
 import img2 from '../assets/purplehd.jpg'
-import p1 from '../assets/person1.jpg'
-import p2 from '../assets/person2.jpg'
-import p3 from '../assets/person3.jpg'
-import p4 from '../assets/person4.jpg'
-import p5 from '../assets/person5.jpg'
-import p6 from '../assets/person6.jpg'
+import p1 from '../assets/rachel.jpeg'
+import p2 from '../assets/hassan.jpeg'
+import p3 from '../assets/fabzi.jpeg'
+import p4 from '../assets/may.jpeg'
+import p5 from '../assets/haleemah.jpeg'
+import p6 from '../assets/convenant.jpeg'
 import logo from '../assets/money.png'; // Adjust the path if necessary
 import ssr from '../assets/ssr.png';
 import { Banknote, Bitcoin, Coins, CoinsIcon, CreditCard, FastForward, FileLock, LockIcon, Phone, Settings, User2, Wifi } from "lucide-react";
@@ -155,43 +155,43 @@ const Landing = () => {
                 <div className="border-2 border-gray-300 p-6 rounded-lg flex flex-col items-center space-y-5">
                     <img src={p1} alt="Person 1" className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover"/>
                     <div>
-                        <h2 className="text-black text-lg md:text-xl font-bold mb-2 text-center">John Doe</h2>
-                        <p className="text-gray-600 text-center mt-4 md:mt-10">"This platform has revolutionized how I manage my data and airtime. Highly recommended!"</p>
+                        <h2 className="text-black text-lg md:text-xl font-bold mb-2 text-center">Ogumola Racheal, Ekiti State, Nigeria</h2>
+                        <p className="text-gray-600 text-center mt-4 md:mt-10">"VeeExchange has made my currency exchanges so seamless and fast. I can easily convert my Naira to CFA from the comfort of my home without any hassle and at the best rates! Highly recommend this platform to anyone in need of reliable financial services."</p>
                     </div>
                 </div>
                 <div className="border-2 border-gray-300 p-6 rounded-lg flex flex-col items-center space-y-5">
                     <img src={p2} alt="Person 2" className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover"/>
                     <div>
-                        <h2 className="text-black text-lg md:text-xl font-bold mb-2 text-center">Jane Smith</h2>
-                        <p className="text-gray-600 text-center mt-4 md:mt-10">"Fast and efficient service. I love the ease of paying my bills through this platform."</p>
+                        <h2 className="text-black text-lg md:text-xl font-bold mb-2 text-center">Salawu Hassan, Osun State, Nigeria</h2>
+                        <p className="text-gray-600 text-center mt-4 md:mt-10">"I frequently travel between Nigeria and Benin Republic for business, and VeeExchange has been a lifesaver. Their P2P platform connects me with trustworthy merchants, making currency exchanges quick and secure. Plus, I can manage all this from the comfort of my home."</p>
                     </div>
                 </div>
                 <div className="border-2 border-gray-300 p-6 rounded-lg flex flex-col items-center space-y-5">
                     <img src={p3} alt="Person 3" className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover"/>
                     <div>
-                        <h2 className="text-black text-lg md:text-xl font-bold mb-2 text-center">Alice Johnson</h2>
-                        <p className="text-gray-600 text-center mt-4 md:mt-10">"Great customer service and a very user-friendly interface. Highly satisfied!"</p>
+                        <h2 className="text-black text-lg md:text-xl font-bold mb-2 text-center">Fabzi, Lagos, Nigeria</h2>
+                        <p className="text-gray-600 text-center mt-4 md:mt-10">"Purchasing airtime and data bundles for both Nigeria and Benin Republic has never been easier. VeeExchange allows me to buy airtime from any country with any currency I have, all from the comfort of my home. This platform is truly a game-changer!"</p>
                     </div>
                 </div>
                 <div className="border-2 border-gray-300 p-6 rounded-lg flex flex-col items-center space-y-5">
                     <img src={p4} alt="Person 4" className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover"/>
                     <div>
-                        <h2 className="text-black text-lg md:text-xl font-bold mb-2 text-center">Robert Brown</h2>
-                        <p className="text-gray-600 text-center mt-4 md:mt-10">"The international transfer feature is a game-changer for me. I can send money to my family effortlessly."</p>
+                        <h2 className="text-black text-lg md:text-xl font-bold mb-2 text-center">May, Porto-Novo, Cotonou, Benin Republic</h2>
+                        <p className="text-gray-600 text-center mt-4 md:mt-10">"I was able to redeem my gift cards at competitive rates on VeeExchange. The process was straightforward and efficient. It’s great to have a platform that offers such versatility in financial services. Plus, I can withdraw my funds to my Naira or CFA account effortlessly from my home."</p>
                     </div>
                 </div>
                 <div className="border-2 border-gray-300 p-6 rounded-lg flex flex-col items-center space-y-5">
                     <img src={p5} alt="Person 5" className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover"/>
                     <div>
-                        <h2 className="text-black text-lg md:text-xl font-bold mb-2 text-center">Emily Davis</h2>
-                        <p className="text-gray-600 text-center mt-4 md:mt-10">"I love the currency exchange feature. It's transparent and offers great rates."</p>
+                        <h2 className="text-black text-lg md:text-xl font-bold mb-2 text-center">Abilawon Haleemah, Cotonou, Benin Republic</h2>
+                        <p className="text-gray-600 text-center mt-4 md:mt-10">"The virtual dollar card feature on VeeExchange is fantastic! It has made my online shopping experience so much better. I can now make international purchases with ease and security, all managed from the comfort of my home."</p>
                     </div>
                 </div>
                 <div className="border-2 border-gray-300 p-6 rounded-lg flex flex-col items-center space-y-5">
                     <img src={p6} alt="Person 6" className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover"/>
                     <div>
-                        <h2 className="text-black text-lg md:text-xl font-bold mb-2 text-center">Michael Wilson</h2>
-                        <p className="text-gray-600 text-center mt-4 md:mt-10">"Mobile banking has never been this easy. The app is secure and user-friendly."</p>
+                        <h2 className="text-black text-lg md:text-xl font-bold mb-2 text-center">Convenant, Abomey, Benin Republic</h2>
+                        <p className="text-gray-600 text-center mt-4 md:mt-10">"VeeExchange stands out for its excellent customer support. Whenever I had questions or needed assistance, their team was prompt and helpful. I can easily withdraw my Naira to a Nigerian bank account or CFA to a CFA account, all from the comfort of my house. It’s a platform I trust for all my financial transactions."</p>
                     </div>
                 </div>
             </div>
@@ -235,7 +235,7 @@ const Landing = () => {
                     <div className="flex justify-center">
                         <button
                             type="submit"
-                            className="bg-blue-500 text-white font-bold py-3 md:py-4 px-6 md:px-8 rounded-lg hover:bg-blue-600 transition duration-300"
+                            className="bg-gray-700 text-white font-bold py-3 md:py-4 px-6 md:px-8 rounded-lg hover:bg-black transition duration-300"
                         >
                             Submit
                         </button>
@@ -244,15 +244,80 @@ const Landing = () => {
             </div>
         </div>
 
+        <div className="hidden md:block mt-20 mb-10">
+            <div className="md:flex md:flex-row md:items-center md:justify-between px-2 mb-[50px]">
+                <div className="flex items-center space-x-3 pl-2">
+                    <img src={logo} alt="Logo" className="h-10 w-10" />
+                    <p className="md:text-3xl text-2xl font-bold text-black">VeeXchange</p>
+                </div>
+                <div className="md:flex md:flex-row md:items-center md:justify-between space-x-10 mr-20">
+                    <p className="text-gray-400 hover:text-black transition-300 cursor-pointer">Gift Cards</p>
+                    <p className="text-gray-400 hover:text-black transition-300 cursor-pointer">Products</p>
+                    <p className="text-gray-400 hover:text-black transition-300 cursor-pointer">Explore</p>
+                </div>
+                <div className="group border-2 border-black px-3 py-2 rounded-full text-center w-[150px] hover:bg-black transition duration-300 cursor-pointer">
+                    <p className="text-black group-hover:text-white">Get Started</p>
+                </div>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8 items-start justify-between px-10 md:px-20 mb-20">
+                <div className="flex flex-col">
+                    <p className="text-xl font-bold text-black mb-5">Products</p>
+                    <div className="flex flex-col space-y-2">
+                        <p className="text-gray-400 hover:text-black transition duration-300 cursor-pointer">Buy Gift Cards</p>
+                        <p className="text-gray-400 hover:text-black transition duration-300 cursor-pointer">Sell Gift Cards</p>
+                        <p className="text-gray-400 hover:text-black transition duration-300 cursor-pointer">Bill Payments</p>
+                        <p className="text-gray-400 hover:text-black transition duration-300 cursor-pointer">Currency Exchange</p>
+                        <p className="text-gray-400 hover:text-black transition duration-300 cursor-pointer">Bank Accounts</p>
+                    </div>
+                </div>
+                <div className="flex flex-col">
+                    <p className="text-xl font-bold text-black mb-5">Available Gift Cards</p>
+                    <div className="flex flex-col space-y-2">
+                        <p className="text-gray-400 hover:text-black transition duration-300 cursor-pointer">Travel Gift Cards</p>
+                        <p className="text-gray-400 hover:text-black transition duration-300 cursor-pointer">LifeStyle Gift Cards</p>
+                        <p className="text-gray-400 hover:text-black transition duration-300 cursor-pointer">Music Gift Cards</p>
+                        <p className="text-gray-400 hover:text-black transition duration-300 cursor-pointer">SuperMarket Gift Cards</p>
+                        <p className="text-gray-400 hover:text-black transition duration-300 cursor-pointer">Gaming Gift Cards</p>
+                        <p className="text-gray-400 hover:text-black transition duration-300 cursor-pointer">Streaming Gift Cards</p>
+                    </div>
+                </div>
+                <div className="flex flex-col">
+                    <p className="text-xl font-bold text-black mb-5">Resources</p>
+                    <div className="flex flex-col space-y-2">
+                        <p className="text-gray-400 hover:text-black transition duration-300 cursor-pointer">Help Center</p>
+                        <p className="text-gray-400 hover:text-black transition duration-300 cursor-pointer">Blog</p>
+                        <p className="text-gray-400 hover:text-black transition duration-300 cursor-pointer">Support</p>
+                        <p className="text-gray-400 hover:text-black transition duration-300 cursor-pointer">Get In Touch</p>
+                    </div>
+                </div>
+                <div className="flex flex-col">
+                    <p className="text-xl font-bold text-black mb-5">Company</p>
+                    <div className="flex flex-col space-y-2">
+                        <p className="text-gray-400 hover:text-black transition duration-300 cursor-pointer">Partners</p>
+                        <p className="text-gray-400 hover:text-black transition duration-300 cursor-pointer">Privacy Policy</p>
+                        <p className="text-gray-400 hover:text-black transition duration-300 cursor-pointer">Terms Of Service</p>
+                    </div>
+                </div>
+                <div className="flex flex-col">
+                    <p className="text-xl font-bold text-black mb-5">Connect</p>
+                    <div className="flex flex-col space-y-2">
+                        <p className="text-gray-400 hover:text-black transition duration-300 cursor-pointer">Get In Touch</p>
+                        <p className="text-gray-400 hover:text-black transition duration-300 cursor-pointer">veexchange_support@gmail.com</p>
+                        <p className="text-gray-400 hover:text-black transition duration-300 cursor-pointer">+234 (0) 80 1 234 5678</p>
+                        <p className="text-gray-400 hover:text-black transition duration-300 cursor-pointer">+234 (0) 80 8 765 4321</p>
+                    </div>
+                </div>
+            </div>
 
+        </div>
 
 
             
             
             {/* Footer */}
-            <footer className="py-4 bg-gray-900 text-gray-400 text-center">
-                <p>&copy; 2024 VeeXchange. All rights reserved.</p>
-            </footer>
+        <footer className="py-4 bg-white text-gray-400 text-center">
+            <p>&copy; 2024 VeeXchange. All rights reserved.</p>
+        </footer>
         </div>
     );
 };
