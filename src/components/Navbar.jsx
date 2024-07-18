@@ -1,9 +1,12 @@
 import React, { useState } from "react";
 import logo from '../assets/money.png'
 import { Menu, X } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
     const [isOpen, setisOpen] = useState(false)
+    const navigate = useNavigate()
+
     return(
         <div>
             <div className="flex flex-row items-center justify-between py-4 max-w-screen-2xl mx-auto">
@@ -24,7 +27,7 @@ const Navbar = () => {
                     <div>
                         <p className="text-gray-400 hover:text-black transition duration-300 cursor-pointer">Services</p>
                     </div>
-                    <div className="text-lg border-2 border-white py-2 px-5 rounded-md hover:bg-gray-400 hover:text-black transition duration-300 cursor-pointer bg-black group">
+                    <div onClick={() => navigate('/login')} className="text-lg border-2 border-white py-2 px-5 rounded-md hover:bg-gray-400 hover:text-black transition duration-300 cursor-pointer bg-black group">
                         <p className="text-white group-hover:text-black">Sign In</p>
                     </div>
                 </div>
@@ -41,7 +44,7 @@ const Navbar = () => {
                         <div className="mt-2">
                             <p className="text-gray-400 hover:text-black transition duration-300 cursor-pointer">Services</p>
                         </div>
-                        <div className="text-lg border-2 border-white py-2 px-5 w-[150px] text-center mt-3 rounded-md hover:bg-gray-400 hover:text-black transition duration-300 cursor-pointer bg-black group">
+                        <div onClick={() => navigate('/login')} className="text-lg border-2 border-white py-2 px-5 w-[150px] text-center mt-3 rounded-md hover:bg-gray-400 hover:text-black transition duration-300 cursor-pointer bg-black group">
                             <p className="text-white group-hover:text-black">Sign In</p>
                         </div>
                     </div>

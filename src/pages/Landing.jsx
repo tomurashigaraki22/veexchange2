@@ -11,7 +11,7 @@ import logo from '../assets/money.png'; // Adjust the path if necessary
 import ssr from '../assets/ssr.png';
 import { Banknote, Bitcoin, Coins, CoinsIcon, CreditCard, FastForward, FileLock, LockIcon, MinusCircle, Phone, PlusCircle, Settings, User2, Wifi } from "lucide-react";
 import Navbar from "../components/Navbar";
-
+import { useNavigate } from "react-router-dom";
 
 
 const Landing = () => {
@@ -20,6 +20,7 @@ const Landing = () => {
     const [openConnect, setopenConnect] = useState(false)
     const [openGift, setopenGift] = useState(false)
     const [openProducts, setopenProducts] = useState(true)
+    const navigate = useNavigate();
 
     const openr = () => {
         setopenResource(!openResource)
@@ -62,7 +63,7 @@ const Landing = () => {
                                     <div className="bg-white md:bg-gray-400 transition duration-300 cursor-pointer mt-10 border-2 border-gray-600 md:w-[50%] text-center px-3 py-2 rounded-lg group hover:bg-black ">
                                         <p className="group-hover:text-white text-black">Explore Now</p>
                                     </div>
-                                    <div className="md:mr-20 transition duration-300 cursor-pointer mt-10 bg-black border-2 border-purple md:w-[50%] text-center px-3 py-3 rounded-lg group hover:bg-gray-400 ">
+                                    <div onClick={() => navigate('/login')} className="md:mr-20 transition duration-300 cursor-pointer mt-10 bg-black border-2 border-purple md:w-[50%] text-center px-3 py-3 rounded-lg group hover:bg-gray-400 ">
                                         <p className="group-hover:text-black text-white">Register</p>
                                     </div>
                                 </div>
