@@ -4,6 +4,7 @@ import Login from "./pages/Login";
 import { useEffect, useState } from "react";
 import { useAuth } from "../Context";
 import Signup from "./pages/Register";
+import Home from "./pages/Home";
 
 
 const AppNav = () => {
@@ -21,6 +22,7 @@ const AppNav = () => {
                 <Route path="/" element={<Landing/>}/>
                 <Route path="/login" element={<Login/>}/>
                 <Route path="/signup" element={<Signup/>}/>
+                <Route path="/home" element={<Home/>}/>
             </Routes>
         </Router>
     );

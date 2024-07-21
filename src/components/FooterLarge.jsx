@@ -3,7 +3,7 @@ import logo from '../assets/money.png';
 
 const FooterLarge = () => {
     return (
-        <div className="hidden md:block mt-20 mb-10">
+        <div className="hidden md:hidden lg:block mt-20 mb-10">
             <div className="md:flex md:flex-row md:items-center md:justify-between px-2 mb-[50px]">
                 <div className="flex items-center space-x-3 pl-2">
                     <img src={logo} alt="Logo" className="h-10 w-10" />

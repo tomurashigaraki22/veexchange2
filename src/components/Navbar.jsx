@@ -18,7 +18,7 @@ const Navbar = () => {
                     {isOpen ? <X color="black" size={30} /> : <Menu color="black" size={30} />}
                 </div>
                 <div className="hidden lg:flex lg:flex-row lg:items-center lg:space-x-8 lg:pr-10">
-                    <div>
+                    <div onClick={() => navigate('/home')}>
                         <p className="text-gray-400 hover:text-black transition duration-300 cursor-pointer">Home</p>
                     </div>
                     <div>
@@ -35,7 +35,7 @@ const Navbar = () => {
             {isOpen &&
                 <div className="border-b border-gray-600 shadow-lg lg:hidden">
                     <div className="pb-4">
-                        <div className="mt-2">
+                        <div className="mt-2" onClick={() => navigate('/home')}>
                             <p className="text-gray-400 hover:text-black transition duration-300 cursor-pointer">Home</p>
                         </div>
                         <div className="mt-2">

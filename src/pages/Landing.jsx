@@ -263,7 +263,7 @@ const Landing = () => {
             </div>
         </div>
 
-        <div className="sm:hidden lg:block md:hidden mt-20 mb-10">
+        <div className="sm:hidden lg:block md:hidden mt-20 mb-10 hidden">
             <div className="md:flex md:flex-row md:items-center md:justify-between px-2 mb-[50px]">
                 <div className="flex items-center space-x-3 pl-2">
                     <img src={logo} alt="Logo" className="h-10 w-10" />
