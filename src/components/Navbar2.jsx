@@ -13,7 +13,7 @@ const Navbar2 = () => {
                     <p className="text-3xl font-bold" style={{ fontFamily: 'Josefin Sans' }}>VeeXchange</p>
                 </div>
                 <div className="flex flex-row items-center justify-between space-x-20 hidden md:hidden lg:flex">
-                    <p className="hover:text-gray-400 transition duration-300 cursor-pointer">Home</p>
+                    <p className="hover:text-gray-400 transition duration-300 cursor-pointer" onClick={() => navigate('/')}>Home</p>
                     <p className="hover:text-gray-400 transition duration-300 cursor-pointer">Service</p>
                     <p className="hover:text-gray-400 transition duration-300 cursor-pointer">Contact Us</p>
                     <p className="hover:text-gray-400 transition duration-300 cursor-pointer">Pages</p>

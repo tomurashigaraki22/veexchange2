@@ -1,6 +1,10 @@
 import React from "react";
 import Navbar2 from "../components/Navbar2";
 import Header from "../components/Header";
+import Do from "../components/Do";
+import WWD2 from "../components/WWD2";
+import Hero2 from "../components/Hero2";
+import Hero3 from "../components/Hero3";
 
 const Landing2 = () => {
     return (
@@ -34,6 +38,13 @@ const Landing2 = () => {
                     </div>
                 </div>
             </div>
+            <div className="sm:hidden md:hidden lg:block hidden">
+                <img src="./wwd.png" alt="What we do" className="block lg:w-auto lg:h-auto pl-4 md:hidden lg:block sm:hidden"/>
+            </div>
+            <Do/>
+            <WWD2/>
+            <Hero2/>
+            <Hero3/>
             <div>
 
             </div>
