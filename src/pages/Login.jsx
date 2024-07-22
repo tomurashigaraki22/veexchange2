@@ -4,12 +4,13 @@ import FooterMobile from "../components/FooterMobile";
 import { MinusCircle, PlusCircle } from "lucide-react";
 import FooterLarge from "../components/FooterLarge";
 import logo from '../assets/money.png'
+import Navbar2 from "../components/Navbar2";
 
 const Login = () => {
     return (
         <div className="min-h-screen flex flex-col">
-            <Navbar />
-            <div className="flex-grow flex items-center justify-center bg-gray-100">
+            <Navbar2 />
+            <div className="flex-grow flex items-center justify-center bg-gray-100 py-10 md:py-20">
                 <div className="w-full max-w-md bg-white p-8 rounded-lg shadow-md">
                     <h2 className="text-3xl font-bold text-center text-gray-900 mb-8">Login</h2>
                     <form className="space-y-6">

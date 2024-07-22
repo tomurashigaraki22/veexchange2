@@ -4,6 +4,7 @@ import FooterMobile from "../components/FooterMobile";
 import FooterLarge from "../components/FooterLarge";
 import { Eye, EyeOff } from "lucide-react";
 import logo from '../assets/money.png'
+import Navbar2 from "../components/Navbar2";
 
 const Signup = () => {
     const [showPassword, setShowPassword] = useState(false);
@@ -14,7 +15,7 @@ const Signup = () => {
 
     return (
         <div className="min-h-screen flex flex-col">
-            <Navbar />
+            <Navbar2 />
             <div className="flex flex items-center justify-center bg-gray-100 py-10 md:py-20">
                 <div className="w-full max-w-md bg-white p-8 rounded-lg shadow-md">
                     <h2 className="text-3xl font-bold text-center text-gray-900 mb-8">Sign Up</h2>

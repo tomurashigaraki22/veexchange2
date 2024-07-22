@@ -1,8 +1,10 @@
 import { Menu, UserPlusIcon, X } from "lucide-react";
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const Navbar2 = () => {
     const [clicked, setClicked] = useState(false);
+    const navigate = useNavigate()
 
     return (
         <div>
@@ -15,7 +17,7 @@ const Navbar2 = () => {
                     <p className="hover:text-gray-400 transition duration-300 cursor-pointer">Service</p>
                     <p className="hover:text-gray-400 transition duration-300 cursor-pointer">Contact Us</p>
                     <p className="hover:text-gray-400 transition duration-300 cursor-pointer">Pages</p>
-                    <div className="flex hover:bg-orange-800 transition duration-300 cursor-pointer flex-row items-center space-x-3 bg-orange-600 px-3 py-2 rounded-lg">
+                    <div className="flex hover:bg-orange-800 transition duration-300 cursor-pointer flex-row items-center space-x-3 bg-orange-600 px-3 py-2 rounded-lg" onClick={() => navigate('/signup')}>
                         <UserPlusIcon color="white" size={28} />
                         <p className="text-lg font-bold text-white" style={{ fontFamily: 'Josefin Sans' }}>Sign Up</p>
                     </div>
