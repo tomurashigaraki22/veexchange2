@@ -6,8 +6,7 @@ const FooterLarge = () => {
         <div className="hidden md:hidden lg:block mt-20 mb-10">
             <div className="md:flex md:flex-row md:items-center md:justify-between px-2 mb-[50px]">
                 <div className="flex items-center space-x-3 pl-2">
-                    <img src={logo} alt="Logo" className="h-10 w-10" />
-                    <p className="md:text-3xl text-2xl font-bold text-black">VeeXchange</p>
+                    <p className="md:text-3xl text-2xl font-bold text-black" style={{ fontFamily: 'Josefin Sans' }}>VeeXchange</p>
                 </div>
                 <div className="md:flex md:flex-row md:items-center md:justify-between space-x-10 mr-20">
                     <p className="text-gray-400 hover:text-black transition-300 cursor-pointer">Gift Cards</p>

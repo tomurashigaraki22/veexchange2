@@ -2,8 +2,8 @@ import React from "react";
 
 const Hero3 = () => {
     return (
-        <div className="p-4">
-            <div className="flex flex-col items-stretch lg:flex-row lg:items-stretch space-y-5 lg:space-y-0 lg:space-x-10">
+        <div className="container p-4 ml-10">
+            <div className="flex flex-col items-stretch justify-center lg:flex-row lg:items-stretch space-y-5 lg:space-y-0 lg:space-x-10">
                 <div className="hover:shadow-lg hover:shadow-gray-400 hover:border hover:border-gray-400 text-center flex flex-col items-center space-y-3 p-4 flex-grow h-full transition-shadow duration-300">
                     <img src="./pman.png" alt="Payment Management" className="w-auto h-auto pb-5" />
                     <p className="font-bold text-lg">Payment Management</p>
@@ -18,6 +18,18 @@ const Hero3 = () => {
                     <img src="./intpay.png" alt="Integrated Payments" className="w-auto h-auto pb-5" />
                     <p className="font-bold text-lg">Integrated Payments</p>
                     <p className="flex-grow text-gray-400">VeeExchange offers integrated payment solutions designed to simplify your financial transactions. Our platform provides a seamless and secure way to manage your payments, ensuring efficiency and peace of mind.</p>
+                </div>
+            </div>
+            <div className="flex flex-col items-stretch mt-20 lg:flex-row lg:items-stretch space-y-5 lg:space-y-0 lg:space-x-10">
+                <div className="hover:shadow-lg hover:shadow-gray-400 hover:border hover:border-gray-400 text-center flex flex-col items-center space-y-3 p-6 flex-grow h-full transition-shadow duration-300 bg-white rounded-lg">
+                    <img src="./bntrack.png" alt="Business Tracking" className="w-24 h-24 pb-5 object-contain" />
+                    <p className="font-bold text-xl text-gray-800">Business Tracking</p>
+                    <p className="flex-grow text-gray-600">With VeeExchange, keep your business finances organized and transparent. Our business tracking feature helps you monitor your transactions, manage your funds, and analyze your financial performance with ease.</p>
+                </div>
+                <div className="hover:shadow-lg hover:shadow-gray-400 hover:border hover:border-gray-400 text-center flex flex-col items-center space-y-3 p-6 flex-grow h-full transition-shadow duration-300 bg-white rounded-lg">
+                    <img src="./card.png" alt="Credit And Debit Card" className="w-24 h-24 pb-5 object-contain" />
+                    <p className="font-bold text-xl text-gray-800">Credit And Debit Card</p>
+                    <p className="flex-grow text-gray-600">VeeExchange offers seamless integration with credit and debit cards, providing you with a convenient and secure way to manage your financial transactions. Whether you’re exchanging currency, purchasing utilities, or redeeming gift cards, our platform ensures a smooth and efficient process.</p>
                 </div>
             </div>
         </div>

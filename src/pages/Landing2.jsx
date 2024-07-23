@@ -5,6 +5,8 @@ import Do from "../components/Do";
 import WWD2 from "../components/WWD2";
 import Hero2 from "../components/Hero2";
 import Hero3 from "../components/Hero3";
+import Hero4 from "../components/Hero4";
+import Footer from "../components/Footer";
 
 const Landing2 = () => {
     return (
@@ -45,9 +47,11 @@ const Landing2 = () => {
             <WWD2/>
             <Hero2/>
             <Hero3/>
-            <div>
-
+            <div className="sm:hidden md:hidden lg:block hidden">
+                <img src="./wwd.png" alt="What we do" className="block lg:w-auto lg:h-auto pl-4 md:hidden lg:block sm:hidden"/>
             </div>
+            <Hero4/>
+            <Footer/>
         </div>
     );
 }
