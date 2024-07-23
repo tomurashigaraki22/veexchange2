@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero3 = () => {
     return (
-        <div className="container p-4 ml-10">
+        <div className="p-4 ml-10 " style={{ alignSelf: 'center'}}>
             <div className="flex flex-col items-stretch justify-center lg:flex-row lg:items-stretch space-y-5 lg:space-y-0 lg:space-x-10">
                 <div className="hover:shadow-lg hover:shadow-gray-400 hover:border hover:border-gray-400 text-center flex flex-col items-center space-y-3 p-4 flex-grow h-full transition-shadow duration-300">
                     <img src="./pman.png" alt="Payment Management" className="w-auto h-auto pb-5" />

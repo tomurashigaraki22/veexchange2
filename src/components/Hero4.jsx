@@ -3,7 +3,7 @@ import React from "react";
 
 const Hero4 = () => {
     return(
-        <div className="mt-10 p-20 block sm:hidden md:hidden lg:block">
+        <div className="mt-10 p-20 hidden sm:hidden md:hidden lg:block">
             <div>
                 <div>
                     <p className="text-xl font-bold text-blue-600 text-center" style={{fontFamily: 'Arsenal SC'}}>Plan And Pricing</p>

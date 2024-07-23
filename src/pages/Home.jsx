@@ -1,11 +1,12 @@
 import React from "react";
+import HomeMobile from "../components/HomeMobile";
 
 
 const Home = () => {
     return(
         <div>
             <div>
-                <p>Home</p>
+                <HomeMobile/>
             </div>
         </div>
     )

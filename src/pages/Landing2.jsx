@@ -10,7 +10,7 @@ import Footer from "../components/Footer";
 
 const Landing2 = () => {
     return (
-        <div className="bg-gray-100 min-h-screen">
+        <div className="bg-gray-100 min-h-screen max-w-screen">
             <Header />
             <Navbar2 />
             <div className="container mx-auto px-4 flex flex-col items-center justify-center w-full">
@@ -34,7 +34,7 @@ const Landing2 = () => {
                             <p className="text-white text-md" style={{ fontFamily: 'Barlow'}}>Open A Free Account</p>
                         </div>
                     </div>
-                    <div className="relative lg:w-1/2 flex justify-center items-center mb-10 lg:pb-10 lg:ml-10 p-2 mr-[-20]">
+                    <div className="relative lg:w-1/2 flex justify-center items-center mb-10 lg:pb-10 lg:ml-10 p-2">
                         <img src="./home2.png" alt="Home2" className="w-full lg:w-3/4 h-auto" style={{ zIndex: 1 }} />
                         <img src="./home.png" alt="Home" className="absolute w-1/2 h-auto" style={{ zIndex: 2 }} />
                     </div>
@@ -46,11 +46,15 @@ const Landing2 = () => {
             <Do/>
             <WWD2/>
             <Hero2/>
-            <Hero3/>
+            <div className="container pr-10 flex flex-col items-center justify-center w-full">
+                <Hero3 />
+            </div>
             <div className="sm:hidden md:hidden lg:block hidden">
                 <img src="./wwd.png" alt="What we do" className="block lg:w-auto lg:h-auto pl-4 md:hidden lg:block sm:hidden"/>
             </div>
-            <Hero4/>
+            <div className="w-screen">
+                <Hero4/>
+            </div>
             <Footer/>
         </div>
     );

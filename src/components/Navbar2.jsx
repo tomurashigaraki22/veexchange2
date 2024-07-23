@@ -14,7 +14,7 @@ const Navbar2 = () => {
                 </div>
                 <div className="flex flex-row items-center justify-between space-x-20 hidden md:hidden lg:flex">
                     <p className="hover:text-gray-400 transition duration-300 cursor-pointer" onClick={() => navigate('/')}>Home</p>
-                    <p className="hover:text-gray-400 transition duration-300 cursor-pointer">Service</p>
+                    <p className="hover:text-gray-400 transition duration-300 cursor-pointer" onClick={() => navigate('/home')}>Service</p>
                     <p className="hover:text-gray-400 transition duration-300 cursor-pointer">Contact Us</p>
                     <p className="hover:text-gray-400 transition duration-300 cursor-pointer">Pages</p>
                     <div className="flex hover:bg-orange-800 transition duration-300 cursor-pointer flex-row items-center space-x-3 bg-orange-600 px-3 py-2 rounded-lg" onClick={() => navigate('/signup')}>
@@ -28,7 +28,7 @@ const Navbar2 = () => {
             </div>
             <div className={`transition-transform duration-2000 ${clicked ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'} overflow-hidden lg:hidden flex flex-col items-center space-y-3 p-3`}>
                 <p className="hover:text-gray-400 transition duration-300 cursor-pointer">Home</p>
-                <p className="hover:text-gray-400 transition duration-300 cursor-pointer">Service</p>
+                <p className="hover:text-gray-400 transition duration-300 cursor-pointer" onClick={() => navigate('/home')}>Service</p>
                 <p className="hover:text-gray-400 transition duration-300 cursor-pointer">Contact Us</p>
                 <p className="hover:text-gray-400 transition duration-300 cursor-pointer">Pages</p>
                 <div className="flex flex-row items-center space-x-3 bg-orange-600 hover:bg-orange-800 cursor-pointer px-3 py-2 rounded-lg w-auto">
