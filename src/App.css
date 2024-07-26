@@ -5,3 +5,14 @@
 body {
   @apply font-montserrat;
 }
+
+/* Hides scrollbar for webkit browsers */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hides scrollbar for other browsers */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}

@@ -6,6 +6,9 @@ import { useAuth } from "../Context";
 import Signup from "./pages/Register";
 import Home from "./pages/Home";
 import Landing2 from "./pages/Landing2";
+import NotFound from "./pages/NotFound";
+import Transactions from "./pages/Transactions";
+import Wallet from "./pages/Wallet";
 
 
 const AppNav = () => {
@@ -24,6 +27,9 @@ const AppNav = () => {
                 <Route path="/login" element={<Login/>}/>
                 <Route path="/signup" element={<Signup/>}/>
                 <Route path="/home" element={<Home/>}/>
+                <Route path="/wallet" element={<Wallet/>}/>
+                <Route path="/transactions" element={<Transactions/>}/>
+                <Route path="*" element={<NotFound/>}/>
             </Routes>
         </Router>
     );
