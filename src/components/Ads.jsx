@@ -19,8 +19,8 @@ const Ads = () => {
             key={index}
             src={image}
             alt={`Ad ${index + 1}`}
-            className={`absolute transition-opacity duration-1000 ease-in-out ${index === currentSlide ? 'opacity-100' : 'opacity-0'}`}
-            style={{ width: "500px", maxWidth: "500px" }}
+            className={`absolute transition-opacity duration-1000 ease-in-out ${index === currentSlide ? 'opacity-100' : 'opacity-0'} 
+                        w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl`}
           />
         ))}
       </div>
