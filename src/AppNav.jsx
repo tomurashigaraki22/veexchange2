@@ -9,6 +9,7 @@ import Landing2 from "./pages/Landing2";
 import NotFound from "./pages/NotFound";
 import Transactions from "./pages/Transactions";
 import Wallet from "./pages/Wallet";
+import PayBills from "./pages/PayBills";
 
 
 const AppNav = () => {
@@ -29,6 +30,7 @@ const AppNav = () => {
                 <Route path="/home" element={<Home/>}/>
                 <Route path="/wallet" element={<Wallet/>}/>
                 <Route path="/transactions" element={<Transactions/>}/>
+                <Route path="/paybills" element={<PayBills/>}/>
                 <Route path="*" element={<NotFound/>}/>
             </Routes>
         </Router>

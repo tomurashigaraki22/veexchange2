@@ -7,6 +7,7 @@ import Hero2 from "../components/Hero2";
 import Hero3 from "../components/Hero3";
 import Hero4 from "../components/Hero4";
 import Footer from "../components/Footer";
+import Ads from "../components/Ads";
 
 const Landing2 = () => {
     return (
@@ -54,6 +55,9 @@ const Landing2 = () => {
             </div>
             <div className="w-screen">
                 <Hero4/>
+            </div>
+            <div className="flex flex-row items-center justify-center h-screen">
+                <Ads />
             </div>
             <Footer/>
         </div>
