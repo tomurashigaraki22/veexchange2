@@ -17,7 +17,7 @@ const FooterLarge = () => {
                     <p className="text-black group-hover:text-white">Get Started</p>
                 </div>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8 items-start justify-between px-10 md:px-20 mb-20 w-full md:w-4/5 lg:w-4/5 mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8 items-start justify-between px-10 md:px-15 mb-20 w-full md:w-4/5 lg:w-4/5 mx-auto">
                 <div className="flex flex-col">
                     <p className="text-xl font-bold text-black mb-5">Products</p>
                     <div className="flex flex-col space-y-2">
