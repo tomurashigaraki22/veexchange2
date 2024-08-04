@@ -2,7 +2,7 @@ import { GoHomeFill } from "react-icons/go";
 import { IoRocket } from "react-icons/io5";
 import { IoMegaphoneSharp } from "react-icons/io5";
 import { IoIosStar } from "react-icons/io";
-import { FaHeart } from "react-icons/fa";
+import { FaExchangeAlt, FaHeart } from "react-icons/fa";
 import { FaShare } from "react-icons/fa";
 import { X } from "lucide-react";
 import React from "react";
@@ -20,29 +20,33 @@ const HomeNav = ({ closeNav }) => {
                     <X color="red" size={30} onClick={closeNav} className="cursor-pointer" />
                 </div>
                 <div className="space-y-10">
-                    <div className="flex items-center space-x-2">
-                        <GoHomeFill color="black" size={30} />
-                        <p className="text-gray-500" style={{ fontFamily: 'Montserrat'}}>Home</p>
+                    <div className="flex items-center space-x-2 group transition duration-300 cursor-pointer" onClick={() => navigate('/home')}>
+                        <GoHomeFill className="text-gray-900 group-hover:text-gray-400" size={30} />
+                        <p className="text-gray-500 group-hover:text-gray-400" style={{ fontFamily: 'Montserrat'}}>Home</p>
                     </div>
-                    <div className="flex items-center space-x-2">
-                        <IoRocket color="black" size={30} />
-                        <p className="text-gray-500" style={{ fontFamily: 'Montserrat'}}>User Level</p>
+                    <div className="flex items-center space-x-2 group transition duration-300 cursor-pointer" onClick={() => navigate('/buydata')}>
+                        <IoRocket className="text-gray-900 group-hover:text-gray-400" size={30} />
+                        <p className="text-gray-500 group-hover:text-gray-400" style={{ fontFamily: 'Montserrat'}}>Mobile Data</p>
                     </div>
-                    <div className="flex items-center space-x-2">
-                        <IoMegaphoneSharp color="black" size={30} />
-                        <p className="text-gray-500" style={{ fontFamily: 'Montserrat'}}>Set Rate Target</p>
+                    <div className="flex items-center space-x-2 group transition duration-300 cursor-pointer" onClick={() => navigate('/electricity')}>
+                        <IoMegaphoneSharp className="text-gray-900 group-hover:text-gray-400" size={30} />
+                        <p className="text-gray-500 group-hover:text-gray-400" style={{ fontFamily: 'Montserrat'}}>Electricity</p>
                     </div>
-                    <div className="flex items-center space-x-2" onClick={() => navigate('/paybills')}>
-                        <IoIosStar color="black" size={30} />
-                        <p className="text-gray-500" style={{ fontFamily: 'Montserrat'}}>Pay Bills</p>
+                    <div className="flex items-center space-x-2 group transition duration-300 cursor-pointer" onClick={() => navigate('/paybills')}>
+                        <IoIosStar className="text-gray-900 group-hover:text-gray-400" size={30} />
+                        <p className="text-gray-500 group-hover:text-gray-400" style={{ fontFamily: 'Montserrat'}}>Pay Bills</p>
                     </div>
-                    <div className="flex items-center space-x-2">
-                        <FaHeart color="black" size={30} />
-                        <p className="text-gray-500" style={{ fontFamily: 'Montserrat'}}>Show Love</p>
+                    <div className="flex items-center space-x-2 group transition duration-300 cursor-pointer" onClick={() => navigate('/betting')}>
+                        <FaHeart className="text-gray-900 group-hover:text-gray-400" size={30} />
+                        <p className="text-gray-500 group-hover:text-gray-400" style={{ fontFamily: 'Montserrat'}}>Betting</p>
                     </div>
-                    <div className="flex items-center space-x-2">
-                        <FaShare color="black" size={30} />
-                        <p className="text-gray-500" style={{ fontFamily: 'Montserrat'}}>Log Out</p>
+                    <div className="flex items-center space-x-2 group transition duration-300 cursor-pointer" onClick={() => navigate('/exchange')}>
+                        <FaExchangeAlt className="text-gray-900 group-hover:text-gray-400" size={30} />
+                        <p className="text-gray-500 group-hover:text-gray-400" style={{ fontFamily: 'Montserrat'}}>CFA to NGN</p>
+                    </div>
+                    <div className="flex items-center space-x-2 group transition duration-300 cursor-pointer">
+                        <FaShare className="text-gray-900 group-hover:text-gray-400" size={30} />
+                        <p className="text-gray-500 group-hover:text-gray-400" style={{ fontFamily: 'Montserrat'}}>Log Out</p>
                     </div>
                 </div>
             </div>

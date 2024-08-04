@@ -10,7 +10,13 @@ import NotFound from "./pages/NotFound";
 import Transactions from "./pages/Transactions";
 import Wallet from "./pages/Wallet";
 import PayBills from "./pages/PayBills";
-
+import SellGiftCards from "./pages/SellGiftCards";
+import TvBills from "./pages/TvBills";
+import BuyData from "./pages/BuyData"
+import Electricity from "./pages/Electricity";
+import BettingChannels from "./pages/Betting";
+import CFAWallet from "./pages/CFAWallet";
+import Exchange from "./pages/Exchange";
 
 const AppNav = () => {
     const [loading, setloading] = useState(true)
@@ -32,6 +38,13 @@ const AppNav = () => {
                 <Route path="/transactions" element={<Transactions/>}/>
                 <Route path="/paybills" element={<PayBills/>}/>
                 <Route path="*" element={<NotFound/>}/>
+                <Route path="/sellcards" element={<SellGiftCards/>}/>
+                <Route path="/tvbills" element={<TvBills/>}/>
+                <Route path="/buydata" element={<BuyData/>}/>
+                <Route path="/electricity" element={<Electricity/>}/>
+                <Route path="/betting" element={<BettingChannels/>}/>
+                <Route path="/cfawallet" element={<CFAWallet/>}/>
+                <Route path="/exchange" element={<Exchange/>}/>
             </Routes>
         </Router>
     );

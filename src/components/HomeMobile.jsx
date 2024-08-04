@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import BottomNav from "./BottomNav";
 import HomeNav from "./HomeNav";
 import { IoNotifications } from "react-icons/io5";
+import { useNavigate } from "react-router-dom";
 
 const HomeMobile = () => {
     const [isopen, setisopen] = useState(false);
@@ -19,6 +20,8 @@ const HomeMobile = () => {
     const closeNav = () => {
         setopennav(false);
     };
+
+    const navigate = useNavigate()
 
     return (
         <div className="relative flex flex-col min-h-screen p-4">
@@ -57,7 +60,7 @@ const HomeMobile = () => {
                         </div>
                     </div>
                 </div>
-                <div className="mt-3 border-2 border-blue-100 bg-gradient-to-r from-blue-100 via-blue-200 to-white rounded-lg shadow-md">
+                <div className="mt-3 border-2 border-blue-100 bg-gradient-to-r from-blue-100 via-blue-200 to-white rounded-lg shadow-md cursor-pointer" onClick={() => navigate('/sellcards')}>
                     <div className="flex flex-col items-left space-y-3 p-3 pb-20">
                         <div
                             className="border border-white bg-blue-600 rounded-full p-1 flex items-center justify-center"
@@ -73,7 +76,7 @@ const HomeMobile = () => {
                     </div>
                 </div>
                 <div className="mt-5 flex flex-row items-center space-x-5 justify-between w-full">
-                    <div className="p-3 flex flex-col items-left space-y-1 pb-10 w-1/2 bg-gradient-to-r from-red-200 to-red-100 shadow-md rounded-lg">
+                    <div className=" cursor-pointer p-3 flex flex-col items-left space-y-1 pb-10 w-1/2 bg-gradient-to-r from-red-200 to-red-100 shadow-md rounded-lg">
                         <div
                             className="border-red-200 border bg-red-600 p-2 flex items-center justify-center rounded-full"
                             style={{ width: "50px", height: "50px" }}
@@ -84,7 +87,7 @@ const HomeMobile = () => {
                             CFA to NGN
                         </p>
                     </div>
-                    <div className="p-3 flex flex-col items-left space-y-1 w-1/2 pb-10 bg-gradient-to-r from-blue-200 to-blue-100 shadow-md rounded-lg">
+                    <div onClick={() => navigate('/cfawallet')} className="cursor-pointer p-3 flex flex-col items-left space-y-1 w-1/2 pb-10 bg-gradient-to-r from-blue-200 to-blue-100 shadow-md rounded-lg">
                         <div
                             className="border-blue-200 border bg-blue-600 p-2 flex items-center justify-center rounded-full"
                             style={{ width: "50px", height: "50px" }}
