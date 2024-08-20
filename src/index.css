@@ -4,6 +4,7 @@
 
 body {
   @apply font-montserrat;
+  overflow-x: hidden;
 }
 
 /* Hides scrollbar for webkit browsers */

@@ -79,7 +79,7 @@ const Transactions = () => {
             {opennav && <HomeNav closeNav={closeNav} />} {/* Render the navbar conditionally */}
             <div className={`transition-filter duration-300 ease-in-out ${opennav ? "blur-sm" : ""}`}>
                 <div className="flex flex-row items-center justify-between">
-                    <div className="flex flex-row items-center space-x-4">
+                    <div className="flex flex-row items-center space-x-4 lg:hidden">
                         <BiMenu color="blue" size={28} onClick={openNav} /> {/* Open navbar */}
                         <p className="text-gray-700 text-md" style={{ fontFamily: 'Ubuntu' }}>Transactions</p>
                     </div>

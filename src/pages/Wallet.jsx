@@ -46,7 +46,7 @@ const Wallet = () => {
                         <BiMenu color="blue" size={30} onClick={openNav} />
                         <p className="text-gray-700 text-md" style={{ fontFamily: 'Ubuntu' }}>Wallet</p>
                     </div>
-                    <div className="flex flex-row items-center space-x-5 bg-white border-white border rounded-full px-3 py-2">
+                    <div className="flex  flex-row items-center space-x-5 bg-white border-white border rounded-full px-3 py-2">
                         <IoNotifications color="blue" size={30} />
                     </div>
                 </div>

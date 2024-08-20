@@ -41,7 +41,7 @@ const CFAWallet = () => {
         <div className="relative flex flex-col min-h-screen p-3">
             {opennav && <HomeNav closeNav={closeNav} />}
             <div className={`flex-1 transition-filter duration-300 ease-in-out ${opennav ? "blur-sm" : ""}`}>
-                <div className="flex flex-row items-center justify-between mb-4">
+                <div className="flex flex-row items-center justify-between mb-4 lg:hidden">
                     <div className="flex flex-row items-center space-x-5 bg-white border-white border rounded-full px-3 py-2">
                         <BiMenu color="blue" size={30} onClick={openNav} />
                         <p className="text-gray-700 text-md" style={{ fontFamily: 'Ubuntu' }}>Wallet</p>
